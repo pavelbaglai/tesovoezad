@@ -15,7 +15,7 @@ public class ConvertNumbersSlovo{
 	private HashMap<String, String> number;
 	private HashMap<String, String> degreeOfNumber;
 	
-	private final String[][] endings = {{"а", "и", ""}, {"", "а", "ов"}};
+	private final String[][] endings = {{"Р°", "Рё", ""}, {"", "Р°", "РѕРІ"}};
 	
 	private HashMap<String, String> parsPropertiesForMap(String PATH) throws IOException{
 		
@@ -48,7 +48,7 @@ public class ConvertNumbersSlovo{
 		String word = "";
 		
 		if(numbStr.substring(0, 1).equals("-")) {
-			word = "минус ";
+			word = "РњРёРЅСѓСЃ ";
 			numbStr = numbStr.substring(1);
 		}
 		
