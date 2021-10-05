@@ -1,7 +1,6 @@
 # tesovoezad
 
   ![img](https://github.com/pavelbaglai/tesovoezad/blob/main/1.PNG)
-    ![img](https://github.com/pavelbaglai/testovoezad/blob/main/2.PNG)
   
  Перевод числа в цифровой записи в строковую. Например 134345 будет "сто тридцать четыре тысячи триста сорок пять". * Учесть склонения - разница в окончаниях (к примеру, две и два).
 
