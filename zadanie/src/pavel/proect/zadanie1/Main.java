@@ -13,7 +13,7 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		try {
 			while(true) {
-				System.out.println("Введите число :");
+				System.out.println("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ :");
 				
 				BigInteger number = in.nextBigInteger();
 				System.out.println(converter.converter(number));
